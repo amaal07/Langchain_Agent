@@ -1,0 +1,142 @@
+ Evaluating prompt: "Write a blog post about AI."
+
+============================================================
+| Criteria                     | Score (0–10) | Justification                                                                                   |
+|-----------------------------|---------------|-------------------------------------------------------------------------------------------------|
+| Clarity                     | 7             | The instruction is clear and understandable, but it lacks specificity regarding the blog post's focus within the broad topic of AI.                  |
+| Specificity / Details       | 3             | There are insufficient details provided; the prompt does not define what aspect of AI should be discussed, nor does it set any requirements.        |
+| Context                     | 2             | The prompt does not provide any context or background information, making it difficult for the writer to determine the audience or purpose of the blog post. |
+| Output Format & Constraints | 2             | There are no formatting instructions, tone specifications, or length constraints defined in the prompt, leaving too much open to interpretation. |
+| Persona Defined             | 0             | The prompt does not assign any persona or specific role to the writer, which could help shape the style or content of the blog post.               || **Final Score (Average)**   | 2.8           |                                                                                                 |
+
+---
+
+## Overall Evaluation
+The prompt's strength lies in its clarity, as it directly requests the creation of a blog post about AI. However, its significant weaknesses include a lack of specificity, context, formatting instructions, and a defined persona, which collectively hinder the potential effectiveness of the response.
+
+## Suggested Improvements
+1. **Add Specificity**: Include details about the focus of the blog post (e.g., "Write a blog post about the impact of AI in healthcare").
+2. **Provide Context**: Specify the intended audience (e.g., "for tech enthusiasts" or "for a general audience").
+3. **Define Output Format**: Indicate the preferred length of the post and any formatting requirements (e.g., "approximately 800 words").
+4. **Assign a Persona**: Define a role for the writer (e.g., "You are an AI expert sharing insights with beginners").
+
+
+------------------------------------------------------------------------------
+
+Test -2
+
+Requirements:
+- Include frontend, backend, and database components
+- Use Azure services such as Application Gateway, AKS, Azure SQL, and Key Vault
+- Ensure high availability and fault tolerance
+- Include monitoring and logging setup
+
+Constraints:
+- Keep the explanation under 300 words
+- Provide the output in a structured bullet-point format
+- Do not include diagrams
+
+Audience:
+The design should be understandable by intermediate-level cloud engineers."
+
+============================================================
+| Criteria                     | Score (0–10) | Justification                                                                                     |
+|-----------------------------|-------------|-------------------------------------------------------------------------------------------------|
+| Clarity                     | 9           | The prompt is easy to understand, with a clear goal of designing an Azure architecture for an e-commerce application. It specifies what needs to be accomplished without ambiguity. |
+| Specificity / Details       | 8           | The requirements and constraints are well defined, specifying components and expected formatting. However, it could further clarify how to address high availability and fault tolerance. |
+| Context                     | 7           | While the target audience is identified as intermediate-level cloud engineers, additional context about the application’s scale or user load would improve understanding. |
+| Output Format & Constraints | 9           | The prompt effectively outlines clear output format expectations by specifying a structured bullet-point format and word limit, making it easier for the responder to meet requirements. |
+| Persona Defined             | 6           | The target audience is somewhat defined, but there's no specific persona for the model to adopt in terms of expertise or guiding role. Assigning a clearer role could enhance responses. |
+| **Final Score (Average)**   | 7.8         |                                                                                                 |
+
+---
+
+### Overall Evaluation
+The prompt effectively guides the design of Azure architecture with clear requirements and constraints while being straightforward. It has strengths in clarity and defined structure; however, it lacks depth in context and persona definition.
+
+### Actionable Improvements
+1. **Add More Context**: Include details about the expected scale of the e-commerce application or key performance metrics to provide better insights for the design.
+2. **Define a Persona**: Specify a role for the model to adopt, such as "You are an Azure solutions architect with a focus on e-commerce applications," to frame the responses more effectively
+
+--------------------------------------------------------------------
+
+Test -3
+
+Enter the prompt you want to evaluate (press Enter to use default):
+> Tell me about cloud
+📝 Evaluating prompt: "Tell me about cloud"
+
+============================================================
+| Criteria                     | Score (0–10) | Justification                                                                                           |
+|-----------------------------|---------------|---------------------------------------------------------------------------------------------------------|
+| Clarity                     | 5             | The prompt is simple but overly vague, which might lead to confusion about the specific aspect of "cloud" the user is interested in. |
+| Specificity / Details       | 3             | There are no specific requirements or details provided; the scope of the request is too broad to yield a focused response.                 |
+| Context                     | 2             | The prompt lacks any context or background information, making it unclear who the intended audience is or what specific information is needed. |
+| Output Format & Constraints | 1             | The prompt does not define any expected output format, tone, or length, which would help in crafting a more useful response.               |
+| Persona Defined             | 0             | No role or persona is defined for the model, meaning it lacks guidance for framing the response appropriately.                              |
+| **Final Score (Average)**   | 2.2           |                                                                                                         |
+
+---
+
+### Overall Evaluation
+The prompt "Tell me about cloud" has several weaknesses, primarily due to its vagueness and lack of detail. This leads to ambiguity and makes it difficult for any system to generate a tailored and relevant response. 
+
+### Suggestions for Improvement
+1. **Increase Clarity and Specificity:** Specify what aspect of cloud computing you're interested in (e.g., cloud storage, cloud security, different providers).
+2. **Provide Context:** Include background information about why you're asking or what you hope to achieve with the information.
+3. **Define Output Format:** Specify how you would like the information to be presented—for example, in bullet points, an overview, or a technical breakdown.
+4. **Assign a Persona:** Indicate a role for the model (e.g., "You are a cloud computing expert") to shape the tone and focus of the response.
+
+---------------------------------------------------------------
+
+Test -4
+
+
+Enter the prompt you want to evaluate (press Enter to use default):
+> """You are a financial analyst.Task:Analyze the latest quarterly financial results of Tata Consultancy Services (TCS).Requirements:- Summarize key financial metrics (revenue, net profit, operating margin)- Highlight year-over-year (YoY) and quarter-over-quarter (QoQ) trends- Identify major growth drivers and business segments contributing to performance- Mention any risks or challenges discussed in the resultsContext:The analysis is intended for investors with basic financial knowledge.Output Format & Constraints:- Present the analysis in bullet points- Limit the response to 200–250 words- Use simple and clear language- Avoid speculation; rely only on reported dataPersona:Act as an experienced equity research analyst."""
+📝 Evaluating prompt: """"You are a financial analyst.Task:Analyze the latest quarterly financial results of Tata Consultancy Services (TCS).Requirements:- Summarize key financial metrics (revenue, net profit, operating margin)- Highlight year-over-year (YoY) and quarter-over-quarter (QoQ) trends- Identify major growth drivers and business segments contributing to performance- Mention any risks or challenges discussed in the resultsContext:The analysis is intended for investors with basic financial knowledge.Output Format & Constraints:- Present the analysis in bullet points- Limit the response to 200–250 words- Use simple and clear language- Avoid speculation; rely only on reported dataPersona:Act as an experienced equity research analyst.""""
+
+============================================================
+| Criteria                     | Score (0–10) | Justification                                                                                      |
+|-----------------------------|---------------|---------------------------------------------------------------------------------------------------|
+| Clarity                     | 7             | The prompt is mostly clear, but it would benefit from better formatting to enhance readability.   |
+| Specificity / Details       | 9             | Requirements are well-defined, listing multiple specific tasks for the analysis to cover.         |
+| Context                     | 8             | It specifies the target audience (investors) and their knowledge level, but further context about TCS could enrich understanding. |
+| Output Format & Constraints | 9             | The output format and constraints are clearly outlined, specifying bullet points and word limits.  |
+| Persona Defined             | 8             | The persona is defined well, indicating that the model should respond as an experienced analyst.  |
+| **Final Score (Average)**   | 8.2           |                                                                                                   |
+
+## Overall Evaluation
+The prompt is quite strong overall, with clear specifications on what the analysis should include and how it should be presented. However, minor improvements in clarity and context could enhance the prompt's effectiveness.
+
+## Suggestions for Improvement
+1. **Clarity**: Improve formatting by adding line breaks between the sections (Task, Requirements, Context, Output Format & Constraints, Persona) to enhance readability.
+2. **Context**: Provide a brief background on Tata Consultancy Services (TCS)—such as its industry, market position, or any recent events—to give the model better contextual information for the analysis.
+
+
+---------------------------------------------------------------------------
+
+test -5
+
+Enter the prompt you want to evaluate (press Enter to use default):
+> Tell me about India election.
+📝 Evaluating prompt: "Tell me about India election."
+
+============================================================
+| Criteria                     | Score (0–10) | Justification                                                                                                                                         |
+|-----------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Clarity                     | 6             | The prompt is straightforward, but the term "India election" is vague and could refer to various aspects such as the electoral process, results, or major parties involved. |
+| Specificity / Details       | 4             | The prompt lacks details on what specific information is being sought regarding the India election, making it less effective in guiding the response.    |
+| Context                     | 3             | There is no context provided about the audience or the aspect of the election being referred to, which hinders the ability to tailor the response appropriately. |
+| Output Format & Constraints | 2             | The prompt does not specify any output format, tone, or length, leading to uncertainty about how to present the requested information.                  |
+| Persona Defined             | 0             | There is no persona or defined role for the model, which reduces the effectiveness of the response as the model does not have guidance on how to approach the topic.  |
+| **Final Score (Average)**   | 3.0           |                                                                                                                                                      |
+
+### Overall Evaluation
+The prompt has some strengths in terms of clarity due to its straightforward nature. However, it lacks substance in all other areas. It does not specify what aspects of the Indian election are of interest, which limits the potential for a detailed and informative response. There is also no defined audience or format for the response, making it harder to provide relevant information.
+
+### Suggested Improvements
+1. **Be Specific**: Clarify what information is wanted about the India election (e.g., the recent election results, candidates, political landscape).
+2. **Provide Context**: Mention the target audience or the purpose of the request (e.g., for a school project, for personal understanding).
+3. **Define Output**: Specify the output format (e.g., a summary, a list of key points) and any constraints (e.g., word count).
+4. **Assign a Persona**: Consider defining a perspective or role for the model (e.g., “You are an election analyst summarizing the latest Indian elections”).
