@@ -1,0 +1,52 @@
+# Customer Support Knowledge Base
+
+## Password Reset
+To reset your password:
+1. Go to the login page and click "Forgot Password"
+2. Enter your registered email address
+3. Check your inbox for a password reset link (also check spam/junk folder)
+4. Click the link and create a new password (minimum 8 characters, must include uppercase, lowercase, number, and special character)
+5. Log in with your new password
+Note: The reset link expires after 24 hours. If expired, request a new one.
+
+## Billing & Subscription
+- All subscriptions are billed monthly or annually depending on your chosen plan.
+- To view your billing history, go to Account Settings > Billing > Invoices.
+- To cancel a subscription, go to Account Settings > Subscription > Cancel Plan. Cancellations take effect at the end of the current billing period.
+- Refund policy: If you were charged in error (e.g., duplicate charge), contact support with your transaction ID. Refunds are processed within 5-7 business days.
+- To update your payment method, go to Account Settings > Billing > Payment Methods.
+- If you see a duplicate charge, please provide your transaction ID and we will investigate and issue a refund if confirmed.
+
+## Export Feature / PDF Export
+- The export feature supports CSV, Excel, and PDF formats.
+- Known issue: PDF export may crash when the dataset exceeds 10,000 rows. A fix is being developed and expected in the next release (v3.2).
+- Workaround: For large datasets, export to CSV first, then convert to PDF using a third-party tool.
+- If the export feature crashes on smaller datasets, please clear your browser cache, disable browser extensions, and try again.
+- If the issue persists, report it with your browser version, OS, and steps to reproduce.
+
+## Dark Mode
+- Dark mode is currently available on the web application (Settings > Appearance > Dark Mode).
+- Dark mode for the mobile app (iOS and Android) is on our product roadmap and planned for Q3 2025.
+- You can submit feature requests through the app: Help > Feature Requests, or email features@company.com.
+
+## API Integration
+- Our REST API documentation is available at https://api.company.com/docs
+- Common error codes:
+  - 401: Invalid or expired API key. Regenerate your key in Account Settings > API Keys.
+  - 429: Rate limit exceeded. Default rate limit is 100 requests per minute. Contact support for higher limits.
+  - 500: Internal server error. Retry after a few seconds. If persistent, contact support.
+  - 504: Gateway timeout. This usually indicates a temporary network issue or server overload. Retry with exponential backoff. If intermittent 504 errors persist, check your request payload size (max 5MB) and ensure your webhook endpoints respond within 30 seconds.
+- For API integration issues, provide: your API key prefix (first 8 characters), endpoint URL, request method, headers, and error response body.
+
+## Account Management
+- To update your profile information, go to Account Settings > Profile.
+- To enable two-factor authentication (2FA), go to Account Settings > Security > Enable 2FA.
+- To delete your account, go to Account Settings > Account > Delete Account. This action is irreversible and all data will be permanently removed after 30 days.
+- To transfer account ownership, contact support with both the current and new owner's email addresses.
+
+## Technical Issues - General
+- Clear your browser cache and cookies before reporting issues.
+- Ensure you are using a supported browser: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+.
+- Disable browser extensions that may interfere with the application.
+- Check our status page at https://status.company.com for ongoing incidents.
+- For mobile app issues, ensure you have the latest version installed from the App Store or Google Play.
